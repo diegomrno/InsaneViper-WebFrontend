@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "name": "insaneviper-webfrontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoMoreno0640/InsaneViper-WebFrontend.git"
+  },
+  "author": "Diego E. Moreno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoMoreno0640/InsaneViper-WebFrontend/issues"
+  },
+  "homepage": "https://github.com/DiegoMoreno0640/InsaneViper-WebFrontend#readme",
+  "description": ""
+}
