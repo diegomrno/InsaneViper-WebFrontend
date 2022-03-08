@@ -1,24 +1,16 @@
-import logo from './logo.svg';
+//import logo from './logo.jpg';
+import React from "react";
+import NavbarComponent from "../../insaneviper-webfrontend/src/components/navbar.js"
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <h1>Insane Viper Website</h1>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component{
+  render(){
+    return (
+      <NavbarComponent>
+      </NavbarComponent>
+    )
+  }
 }
 
 export default App;
