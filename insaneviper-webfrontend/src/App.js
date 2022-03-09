@@ -1,14 +1,15 @@
 //import logo from './logo.jpg';
 import React from "react";
-import NavbarComponent from "../../insaneviper-webfrontend/src/components/navbar.js"
+import Navbar from "./components/navbar/navbar.js"
 import './App.css';
 
 
 class App extends React.Component{
   render(){
     return (
-      <NavbarComponent>
-      </NavbarComponent>
+      <div class="app">
+        <Navbar></Navbar>
+      </div>
     )
   }
 }
