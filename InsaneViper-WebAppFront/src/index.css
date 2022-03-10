@@ -16,16 +16,3 @@ code {
     monospace;
 }
 
-.app{
-  position:fixed;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
-  background-color: blueviolet;
-}
-
-.navbar{
-  position:fixed;
-  background-color: rgb(43, 226, 43);
-}
